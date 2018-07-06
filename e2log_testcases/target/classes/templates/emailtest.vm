@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+   	Dear ${name},<br><br>
+	Greetings from e2log.<br><br>  
+    ${body}
+    #if ($url)
+    <br><br>Registration Link:&nbsp;
+    <a href = "${url}" >${url}<a>
+    #end
+     #if($serviceName)
+    <br><br>Sincerely<br>Customer Service Team<br>e2log 
+    #end
+   
+</body>
+</html>
